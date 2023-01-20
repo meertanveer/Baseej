@@ -3,7 +3,9 @@
 @tailwind utilities;
 
 body {
-  background-color: black;
+  background-image: url('../public//images//bgHQS.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 @media (prefers-color-scheme: dark) {
   :root {

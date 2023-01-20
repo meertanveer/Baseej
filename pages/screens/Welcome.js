@@ -7,11 +7,18 @@ function Welcome() {
   return (
     <>
       <Header />
-      <div className="grid text-orange-500 items-center justify-center">
+      <div className="grid text-orange-500 items-center justify-center ">
         <div className="flex justify-center font-bold font-mono text-2xl mt-10">
-          <p>Welcome</p>
+          <p className="border border-orange-500 px-4 py-1 bg-orange-500/30 rounded-sm">
+            Welcome
+          </p>
         </div>
-        <div className="grid grid-cols-1 w-64 rounded-lg space-y-2 mt-16 mb-32 p-6 border  text-medium text-sm border-slate-300 shadow-md shadow-orange-500">
+        <div className="grid grid-cols-1 w-64 rounded-lg space-y-2 mt-16 mb-32 p-6 border  text-medium text-sm border-slate-300 shadow-md shadow-orange-500 bg-gray-900/70">
+          <div>
+            <p className="text-white flex items-center justify-center font-bold">
+              Login
+            </p>
+          </div>
           <label>Username</label>
           <input
             className=" rounded-sm bg-yellow-100 pl-4"
